@@ -1,11 +1,3 @@
-import {Component} from '@angular/core';
-
-@Component({
-    selector: 'bs-card',
-    styles: [
-        'div.card { margin: 10px;}'
-    ],
-    template: `
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><ng-content select=".card-title"></ng-content></h4>
@@ -14,8 +6,3 @@ import {Component} from '@angular/core';
     </div>
   </div>
 </div>
-    `
-})
-export class BsCard {
-
-}
